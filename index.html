@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangi vazifa qo'shish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        #taskInput {
+            width: 70%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: rgb(85, 85, 132);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(81, 81, 133);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            margin-bottom: 5px;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yangi vazifa qo'shish</h1>
+    <input type="text" id="taskInput" placeholder="vazifangizni kiriting">
+    <button onclick="addTask()">vazifa qo'shing</button>
+    <ul id="taskList">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
